@@ -2,64 +2,65 @@
 
 ## Project Overview
 
-This project analyzes sales and operational performance using Microsoft Excel. The dashboard provides insights into revenue, customer behavior, product performance, and regional trends to support business decision-making.
+Developed an interactive Sales Dashboard in Microsoft Excel to analyze sales performance, customer behavior, regional trends, and product performance. The dashboard enables users to dynamically explore business data through KPI cards, slicers, and interactive visualizations.
 
-## Objective
+## Business Objective
 
-The goal of this project was to:
+The objective of this project was to transform raw sales data into actionable business insights by identifying:
 
-* Analyze sales performance across regions and categories
-* Identify top-performing products and customer segments
-* Monitor sales trends over time
-* Create an interactive dashboard using Pivot Tables, Pivot Charts, Slicers, and KPI Cards
-* Generate actionable business insights
+* Top-performing regions
+* High-revenue product categories
+* Customer segment contributions
+* Monthly sales trends
+* Top customers
+* State-wise sales performance
 
-## Dataset
+## Dataset Information
 
 The dataset contains:
 
 * Order ID
 * Customer ID
 * Customer Name
+* Category
 * Segment
 * Region
 * State
-* Category
-* Product Name
 * Ship Mode
+* Product Name
 * Sales
 * Order Date
 
 ## Dashboard KPIs
 
-* Total Sales
-* Total Orders
-* Average Order Value
-* Total Customers
-* Total Quantity Sold
+* Total Sales: $2,261,537
+* Total Orders: 9,800
+* Average Order Value: $230.77
+* Total Customers: 314
+* States Covered: 14
 
 ## Analysis Performed
 
 ### Bivariate Analysis
 
-* Region vs Sales
 * Category vs Sales
+* Region vs Sales
 * Segment vs Sales
-* Product vs Sales
+* Customer vs Sales
+* Monthly Sales Trend
 
-### Trivariate Analysis
+### Multivariate Analysis
 
-* State × Category × Sales (Heat Map)
-* Segment × Category × Sales
 * Region × Category × Sales
+* Region × Segment × Sales
+* Monthly Sales × Category
 
 ## Excel Features Used
 
 * Pivot Tables
 * Pivot Charts
-* Conditional Formatting
-* Heat Maps
 * Slicers
+* Conditional Formatting
 * SUMIFS
 * COUNTIFS
 * XLOOKUP
@@ -67,25 +68,21 @@ The dataset contains:
 * KPI Cards
 * Dashboard Design
 
-## Key Insights
+## Key Business Insights
 
-* Identified top-performing regions and categories
-* Analyzed customer purchasing behavior
-* Highlighted high-performing products
-* Evaluated sales contribution by segment
-* Discovered sales concentration by state
-
-## Dashboard Preview
-
-(Add dashboard screenshot here)
+* West region generated the highest sales across most categories.
+* Technology was one of the strongest-performing categories.
+* Consumer segment contributed the largest share of revenue.
+* California generated the highest sales among all states.
+* Sales showed strong growth during the later months of the year.
 
 ## Tools Used
 
 * Microsoft Excel
 * Pivot Tables
 * Pivot Charts
-* Conditional Formatting
 * Slicers
+* Advanced Excel Formulas
 
 ## Author
 
